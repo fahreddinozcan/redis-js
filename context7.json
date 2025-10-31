@@ -2,6 +2,14 @@
   "folders": ["pkg", "platforms"],
   "excludeFolders": ["examples", "node_modules"],
   "excludeFiles": ["*.test.ts", "*.config.*"],
+  "rules": [
+    "This is an HTTP/REST-based Redis client for TypeScript",
+    "Designed for serverless and edge environments where HTTP is preferred over TCP",
+    "Works with Upstash Redis or any Redis instance with REST API",
+    "Auto-pipelining is enabled by default for better performance",
+    "Use Redis class for connection pooling, use redis instance for serverless",
+    "All commands return Promises and support async/await"
+  ],
   "previousVersions": [
     {
       "tag": "v0.1.0"
