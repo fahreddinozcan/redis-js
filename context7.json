@@ -1,0 +1,23 @@
+{
+  "folders": ["pkg", "platforms"],
+  "excludeFolders": ["examples", "node_modules"],
+  "excludeFiles": ["*.test.ts", "*.config.*"],
+  "previousVersions": [
+    {
+      "tag": "v1.0.0"
+    },
+    {
+      "tag": "v0.2.1"
+    },
+    {
+      "tag": "v0.2.0"
+    },
+    {
+      "branch": "main"
+    },
+    {
+      "branch": "release"
+    }
+  ]
+}
+
