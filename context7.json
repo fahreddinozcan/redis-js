@@ -17,6 +17,15 @@
     },
     {
       "branch": "release"
+    },
+    {
+      "branch": "ci-test"
+    },
+    {
+      "branch": "DX-935"
+    },
+    {
+      "branch": "DX-593"
     }
   ]
 }
