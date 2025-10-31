@@ -11,21 +11,6 @@
     },
     {
       "tag": "v1.1.0"
-    },
-    {
-      "branch": "main"
-    },
-    {
-      "branch": "release"
-    },
-    {
-      "branch": "ci-test"
-    },
-    {
-      "branch": "DX-935"
-    },
-    {
-      "branch": "DX-593"
     }
   ]
 }
