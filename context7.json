@@ -10,6 +10,13 @@
     "All commands are async and return Promises - always use await or .then()",
     "Commands follow Redis protocol but return parsed JavaScript values automatically"
   ],
+  "benchmarkQuestions": [
+    "How do I initialize a Redis client in serverless environments?",
+    "What is the difference between Redis.fromEnv() and creating a new Redis instance?",
+    "How do I handle connection errors in edge runtime environments?",
+    "Can I use Redis pipelines with this library?",
+    "How do I implement rate limiting using Redis?"
+  ],
   "previousVersions": []
 }
 
