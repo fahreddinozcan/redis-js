@@ -3,12 +3,12 @@
   "excludeFolders": ["examples", "node_modules"],
   "excludeFiles": ["*.test.ts", "*.config.*"],
   "rules": [
-    "This is an HTTP/REST-based Redis client for TypeScript",
-    "Designed for serverless and edge environments where HTTP is preferred over TCP",
-    "Works with Upstash Redis or any Redis instance with REST API",
-    "Auto-pipelining is enabled by default for better performance",
-    "Use Redis class for connection pooling, use redis instance for serverless",
-    "All commands return Promises and support async/await"
+    "This library is designed for serverless and edge environments where traditional TCP connections are not available",
+    "Always use HTTP/REST based methods instead of direct TCP connections",
+    "Import from '@upstash/redis' for standard usage or specific platform exports for edge runtimes",
+    "Use Redis.fromEnv() to automatically load credentials from environment variables",
+    "All commands are async and return Promises - always use await or .then()",
+    "Commands follow Redis protocol but return parsed JavaScript values automatically"
   ],
   "previousVersions": [
     {
