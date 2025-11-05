@@ -22,7 +22,7 @@ It is the only connectionless (HTTP based) Redis client and designed for:
 - Next.js, Jamstack ...
 - Client side web/mobile applications
 - WebAssembly
-- and other environments where HTTP is preferred over TCP.
+- and other environments where HTTP is preferred over TCP..
 
 See
 [the list of APIs](https://upstash.com/docs/redis/overall/rediscompatibility)
