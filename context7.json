@@ -1,7 +1,8 @@
 {
-  "folders": ["pkg", "platforms"],
-  "excludeFolders": ["examples", "node_modules"],
-  "excludeFiles": ["*.test.ts", "*.config.*"],
+  "branch": "unstable",
+  "folders": ["pkg", "platforms", "src", "lib"],
+  "excludeFolders": ["examples", "node_modules", "test", "dist"],
+  "excludeFiles": ["*.test.ts", "*.config.*", "*.md"],
   "rules": [
     "This library is designed for serverless and edge environments where traditional TCP connections are not available",
     "Always use HTTP/REST based methods instead of direct TCP connections",
@@ -29,15 +30,21 @@
     "This is rule 24",
     "This is rule 25",
     "This is rule 26",
-    "This is rule 27"
+    "This is rule 27",
+    "Use TypeScript for better type safety with Redis commands"
   ],
   "benchmarkQuestions": [
     "How do I initialize a Redis client in serverless environments?",
     "What is the difference between Redis.fromEnv() and creating a new Redis instance?",
     "How do I handle connection errors in edge runtime environments?",
     "Can I use Redis pipelines with this library?",
-    "How do I implement rate limiting using Redis?"
+    "How do I implement rate limiting using Redis?",
+    "What are the best practices for error handling in production?"
   ],
-  "previousVersions": []
+  "previousVersions": [
+    { "tag": "v1.0.0" },
+    { "branch": "legacy" }
+  ],
+  "redirect": "https://upstash.com/docs/redis"
 }
 
