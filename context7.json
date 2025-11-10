@@ -36,8 +36,7 @@
     "What is the difference between Redis.fromEnv() and creating a new Redis instance?",
     "How do I handle connection errors in edge runtime environments?",
     "Can I use Redis pipelines with this library?",
-    "How do I implement rate limiting using Redis?",
-    "This is a very long benchmark question that exceeds the maximum character limit of 500 characters. Let me keep typing to make this really long so it will definitely exceed validation. I need to add more and more text here to reach that 500 character limit. This question is intentionally made extremely verbose and unnecessarily long to test the validation logic in the schema. We want to ensure that the system properly rejects questions that are too long and provides appropriate error messages to users who might accidentally create overly lengthy benchmark questions in their configuration files. Adding even more text now to absolutely guarantee we exceed 500 chars limit."
+    "How do I implement rate limiting using Redis?"
   ],
   "previousVersions": []
 }
