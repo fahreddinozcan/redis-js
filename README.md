@@ -8,7 +8,7 @@ of [Upstash REST API](https://docs.upstash.com/features/restapi).
 ![npm bundle size](https://img.shields.io/bundlephobia/minzip/@upstash/redis)
 
 > [!NOTE]  
-> **This project is in GA Stage.**
+> **This project is in GA Stage**
 >
 > The Upstash Professional Support fully covers this project. It receives regular updates, and bug fixes. The Upstash team is committed to maintaining and improving its functionality.
 
