@@ -28,6 +28,7 @@
     { "tag": "v1.35.5" },
     { "tag": "v1.35.4" },
     { "branch": "test-custom-digest" },
-    { "branch": "dev-ups-patch-2" }
+    { "branch": "dev-ups-patch-2" },
+    { "branch": "patch-1"}
   ]
 }
