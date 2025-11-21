@@ -1,34 +1,4 @@
 {
-  "branch": "release",
-  "excludeFolders": [
-    "node_modules",
-    "dist",
-    "build",
-    ".git",
-    "tests",
-    "__tests__"
-  ],
-  "excludeFiles": [
-    "*.test.ts",
-    "*.test.js",
-    "*.spec.ts",
-    "*.spec.js",
-    "*.config.js",
-    "*.config.ts"
-  ],
-  "rules": [
-    "Redis is an in-memory data structure store used as database, cache, and message broker",
-    "Always handle Redis connections properly with error handling and connection cleanup",
-    "Use Redis commands asynchronously with proper Promise handling",
-    "Consider using Redis pipelines for bulk operations to improve performance",
-    "Set appropriate TTL (time-to-live) values for cached data to prevent memory overflow"
-  ],
-  "previousVersions": [
-    { "tag": "v1.35.6" },
-    { "tag": "v1.35.5" },
-    { "tag": "v1.35.4" },
-    { "branch": "test-custom-digest" },
-    { "branch": "dev-ups-patch-2" },
-    { "branch": "patch-1"}
-  ]
+  "url": "https://context7.com/fahreddinozcan/rediss",
+  "public_key": "pk_qYVQVRPhARZtNxzNKMYx8"
 }
